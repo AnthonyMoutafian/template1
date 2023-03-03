@@ -1,0 +1,132 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.menulistdiv,.logo{
+    float: left;
+}
+
+.menuul li {
+    margin-top: -7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    float: left;
+}
+
+.menuul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.menuul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.learn{
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+.learn div{
+      padding-top: 30px;
+}
+
+.learndiv p{
+  color: grey;
+}
+
+.tutdown{
+    margin-top: 30px;
+}
+
+.tutdown a {
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 89, 255);
+}
+
+.tutdown a:hover{
+    background-color: rgb(0, 153, 255);
+}
+
+.latestposts{
+    margin: 0 100px;
+}
+
+.latestposts h2{
+    text-align: center;
+}
+
+.posts{
+    margin-top: 70px;
+    margin-left: 370px;
+}
+
+.post{
+    float: left;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.post p {
+    color: grey;
+}
+
+.post a{
+    color: white;
+    background-color: rgb(0, 89, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.post a:hover{
+    background-color: rgb(0, 153, 255);
+}
+
+.posts2{
+    margin-top: 70px;
+    margin-left: 470px;
+}
+
+.changepage{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.changepage a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.changepage a:hover{
+    background-color: rgb(0, 89, 255);
+}
+
+
+footer{
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
